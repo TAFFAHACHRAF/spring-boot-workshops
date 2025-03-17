@@ -1,0 +1,7 @@
+package ajincodew.studentsmanagement.repositories;
+
+import ajincodew.studentsmanagement.entities.Student;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface StudentRepository extends JpaRepository<Student, Long> {
+}
